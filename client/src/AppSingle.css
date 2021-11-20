@@ -1,0 +1,175 @@
+
+
+.mortgageLabel {
+
+    font-size : 20px;
+    display:inline-block;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.l1 {
+    padding : .25em;
+    font-size : 20px;
+    display:inline;
+    padding-left: .5em;
+    padding-right: .5em;
+    /*background-color: orange;
+    color: darkslategray;
+    */
+    color: darkslategray;
+    font-weight: bold;
+    /*border: 3px solid green;*/
+
+}
+
+.l1invalid {
+    color: crimson;
+}
+
+.l1valid {
+    color: green;
+}
+
+.l1default {
+    color: black;
+}
+
+.l2 {
+    font-size : 30px;
+
+    /*background-color:peachpuff;*/
+
+    color: black;
+    font-weight: bold;
+    /*border: 3px solid green;*/
+
+}
+
+.b1{
+    /*border: 3px solid green;
+    background-color:lightskyblue  ;*/
+}
+
+.fg1{
+
+    align-items: center;
+
+}
+
+
+.container {
+
+    background-color: antiquewhite;
+    border: 1px solid green;
+    margin-top:30px;
+
+}
+.form {
+
+    background-color: antiquewhite;
+}
+
+.formgroup {
+    padding:0;
+    margin:0;
+    justify-content: left;
+}
+
+.submitButton {
+    padding:.25em;
+    margin-bottom: 15px;
+}
+
+#placeholdercolor::placeholder {
+    color: aquamarine;
+}
+
+#formMortgagePersonalInfoFName::placeholder {
+    color: aquamarine;
+}
+
+#formMortgagePersonalInfoSpouseName::placeholder {
+    color: aquamarine;
+}
+
+#formMortgagePersonalInfoCityStreet::placeholder {
+    color: aquamarine;
+}
+
+#formMortgagePersonalInfoCityStreet2::placeholder {
+    color: aquamarine;
+}
+#formMortgagePersonalInfoAgeSSN::placeholder {
+    color: aquamarine;
+}
+#formMortgagePersonalInfoMaritalStatus::placeholder {
+    color: aquamarine;
+}
+#formMortgagePersonalInfoDependents::placeholder {
+    color: aquamarine;
+}
+#formMortgagePersonalInfoIncome::placeholder {
+    color: aquamarine;
+}
+#formMortgagePersonalInfoEducation::placeholder {
+    color: aquamarine;
+}
+#formMortgagePersonalInfoResidence::placeholder {
+    color: aquamarine;
+}
+#formMortgagePersonalInfoApplications::placeholder {
+    color: aquamarine;
+}
+
+.validname {
+    border: 1px #ccc;
+    padding: 0px 10px;
+    color:green;
+    font-size: 16px;
+
+
+}
+
+.invalidname {
+
+    border: 3px solid red;
+
+}
+
+.radiovalidname {
+
+    border: 3px solid transparent;
+    padding: 10px;
+}
+
+.firstinputControl {
+
+    border: 1px solid red;
+
+}
+
+.testrow {
+
+    margin-left: 30px;
+}
+
+.modal-70w {
+    min-width : 70%;
+
+}
+
+.modal-90w {
+    min-width : 90%;
+
+}
+
+.modal-50w {
+    min-width : 50%;
+
+}
+
+select.placeholder {
+
+    color: aquamarine;
+}

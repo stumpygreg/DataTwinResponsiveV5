@@ -1,0 +1,308 @@
+
+
+
+
+.mortgageLabel {
+
+    font-size : 20px;
+    display:inline-block;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.breadcrumb{
+    background-color: antiquewhite;
+
+}
+
+.img-fluid {
+
+    max-width: 100%;
+    height: auto;
+}
+
+
+.lheader {
+    padding : .25em;
+    font-size : 30px;
+    display:inline;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: 5px;
+    color: darkslategray;
+    font-weight: bold;
+
+
+}
+
+.lheaderdemo {
+    padding : .25em;
+    font-size: calc(1vw + 1.25vh + 1vmin);
+    display:inline;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: 5px;
+    color: darkslategray;
+    font-weight: bold;
+
+
+}
+.lheadertemp {
+    padding : .25em;
+    font-size : 16px;
+    display:inline;
+    padding-left: .5em;
+    padding-right: .5em;
+    color:deepskyblue;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.lheaderwarning {
+    padding : .25em;
+    font-size : 16px;
+    display:inline;
+    padding-left: .5em;
+    padding-right: .5em;
+    color:crimson;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.l1 {
+
+    font-size: 14px;
+    display:inline;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-right: .5em;
+    padding-bottom : .25em;
+
+
+    /*background-color: orange;
+    color: darkslategray;
+    */
+    color: darkslategray;
+    font-weight: bold;
+    /*border: 3px solid green;*/
+
+}
+
+@media (min-width: 0px) {
+    .l1 { font-size: 1rem; }
+    .l1 { font-size: 12px; }
+}
+
+@media (min-width: 400px) {
+    .l1 { font-size: calc(1rem + 1vw); }
+}
+
+@media (min-width: 1001px){
+    /*.l1 { font-size: 1rem; }*/
+    .l1 { font-size: 12px; }
+
+}
+
+.l1invalid {
+    color: crimson;
+}
+
+.l1valid {
+    color: green;
+}
+
+.l1default {
+    color: black;
+}
+
+.l2 {
+    font-size : 30px;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.b1{
+    /*border: 3px solid green;
+    background-color:lightskyblue  ;*/
+}
+
+.fg1{
+
+    align-items: center;
+
+}
+
+.headerborder{
+    border-bottom: 3px solid green;
+    padding-bottom: 15px;
+}
+
+.backgroundforvisual{
+    background-color: chartreuse;
+
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+.backgroundforvisual2{
+    background-color: crimson ;
+
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+
+.container {
+
+    background-color: antiquewhite;
+    border: 1px solid green;
+    margin-top:30px;
+
+}
+.form {
+
+    background-color: antiquewhite;
+}
+
+
+.formgroup {
+    justify-content: left;
+    margin-bottom: .8em;
+
+   /*border: 2px solid red;*/
+
+    /*justify-content: right;*/
+}
+
+.justifyleft {
+    justify-content: left;
+}
+
+.justifyright {
+    justify-content: right;
+}
+
+.submitButton {
+    padding:.25em;
+    margin-bottom: 15px;
+}
+
+#placeholdercolor::placeholder {
+    color: gold;
+}
+
+#formMortgagePersonalInfoFName::placeholder {
+    color: aquamarine;
+}
+
+#Page1_Name::placeholder {
+    color: gold;
+}
+
+#Page1_SpouseName::placeholder {
+    color: gold;
+}
+
+#Page1_SpouseAgeSsn::placeholder {
+    color: gold;
+}
+
+#Page1_CityStreet::placeholder {
+    color: gold;
+}
+
+#Page1_CityStreet2::placeholder {
+    color: gold;
+}
+
+#Page1_StateZip::placeholder {
+    color: gold;
+}
+#Page1_AgeSsn::placeholder {
+    color: gold;
+}
+#Page1_PhoneEmail::placeholder {
+    color: gold;
+}
+#formMortgagePersonalInfoMaritalStatus::placeholder {
+    color: gold;
+}
+#formMortgagePersonalInfoDependents::placeholder {
+    color: gold;
+}
+#formMortgagePersonalInfoIncome::placeholder {
+    color: gold;
+}
+#formMortgagePersonalInfoEducation::placeholder {
+    color: gold;
+}
+#formMortgagePersonalInfoResidence::placeholder {
+    color: gold;
+}
+#formMortgagePersonalInfoApplications::placeholder {
+    color: gold;
+}
+
+.validname {
+    border: 1px #ccc;
+   padding: 0px 10px;
+    color:green;
+    font-size: 16px;
+
+
+}
+
+.invalidname {
+
+    border: 3px solid red;
+
+}
+
+.radiovalidname {
+
+    border: 3px solid transparent;
+    padding: 10px;
+}
+
+.firstinputControl {
+
+    border: 1px solid red;
+
+}
+
+.testrow {
+
+    margin-left: 30px;
+}
+
+.modal-70w {
+    min-width : 70%;
+
+}
+
+.modal-90w {
+    min-width : 90%;
+
+}
+
+.modal-50w {
+    min-width : 50%;
+
+}
+
+select.placeholder {
+
+    color: gold;
+}
+
+
+.verticalalign {
+    vertical-align: center;
+
+}
+
+
+
